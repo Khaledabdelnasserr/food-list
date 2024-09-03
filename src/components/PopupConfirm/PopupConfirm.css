@@ -1,0 +1,157 @@
+/* PopupConfirm.css */
+.popup-confirm-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-confirm-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 60vh;
+    overflow-y: auto;
+    width: 500px;
+}
+
+
+.close-popup-button {
+    background-color: #cd390d;
+    color: white;
+    padding: 15px;
+    border: none;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    margin: 20px;
+}
+
+.button-close {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.button-close button {
+    border-radius: 0px 100px 0px 100px;
+    font-family: 600;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.head-info {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.head-info h2 {
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.head-info p {
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+
+.confirm-order-summary {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.img-info {
+    display: inline;
+    height: 60px;
+    width: 60px;
+}
+
+.img-title-container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-info .img-info img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price-x {
+    font-size: 17px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.price-x span {
+    color: gray;
+}
+
+.total-order-popup {
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    /* margin-left: 130px; */
+    font-size: 22px;
+    font-weight: 500;
+    /* margin-bottom: 25px; */
+}
+
+.item-info-title {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.start-new-order-button {
+    margin: 20px 0px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #cd390d;
+    font-family: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-total-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 10px 0px;
+}
+
+.popup-total-price .p-o {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.popup-total-price p {
+    font-size: 25px;
+    font-weight: 700;
+}
